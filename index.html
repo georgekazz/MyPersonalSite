@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Georgios-Christoforos Kazlaris</title>
+    <meta
+      name="description"
+      content="Personal academic site of Georgios-Christoforos Kazlaris, PhD Candidate in Augmented Reality &amp; Collaborative Learning."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a href="index.html" class="brand">
+          <span class="mono">ΓΚ</span>
+          <span class="brand-name"
+            ><strong data-i18n="brand.name">G.-C. Kazlaris</strong
+            ><span data-i18n="brand.role">PhD Candidate</span></span
+          >
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="cv.html" data-i18n="nav.cv">CV</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div class="lang-toggle" aria-label="Language">
+            <button data-lang="el">EL</button>
+            <button data-lang="en">EN</button>
+          </div>
+          <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow" data-i18n="hero.eyebrow">
+            Information & Electronic Engineering · IHU
+          </p>
+          <h1 class="hero-name">
+            <span data-i18n="hero.name.first">Georgios-Christoforos</span>
+            <span class="accent" data-i18n="hero.name.last">Kazlaris</span>
+          </h1>
+          <p class="hero-title" data-i18n="hero.title">
+            PhD Candidate — Augmented Reality in Collaborative Learning
+          </p>
+          <!-- <p class="hero-tagline" data-i18n="hero.tagline">
+            I design and study educational technologies — mainly Augmented
+            Reality applications that help students solve problems and think
+            critically together.
+          </p> -->
+          <div class="btn-row">
+            <a
+              href="contact.html"
+              class="btn btn-primary"
+              data-i18n="hero.cta1"
+              >Contact</a
+            >
+            <a href="cv.html" class="btn btn-ghost" data-i18n="hero.cta2"
+              >Download CV</a
+            >
+          </div>
+        </div>
+        <div class="card-stack-wrap">
+          <div class="card-stack" id="cardStack">
+            <div class="stack-card" id="card-1">
+              <span class="corner tl"></span><span class="corner br"></span>
+              <span class="tag" data-i18n="card1.tag">Thesis</span>
+              <h4 data-i18n="card1.title">AR in Collaborative Learning</h4>
+            </div>
+            <div class="stack-card" id="card-2">
+              <span class="corner tl"></span><span class="corner br"></span>
+              <span class="tag" data-i18n="card2.tag">Field</span>
+              <h4 data-i18n="card2.title">Educational Technology</h4>
+            </div>
+            <div class="stack-card" id="card-3">
+              <span class="corner tl"></span><span class="corner br"></span>
+              <span class="tag" data-i18n="card3.tag">Since</span>
+              <h4 data-i18n="card3.title">2024 · PhD started</h4>
+            </div>
+          </div>
+          <div class="stack-nav">
+            <button id="stackPrev" aria-label="Previous card" type="button">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <div class="stack-dots" id="stackDots">
+              <span class="is-active"></span><span></span><span></span>
+            </div>
+            <button id="stackNext" aria-label="Next card" type="button">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap about-grid">
+        <div data-reveal>
+          <img
+            src="assets/me.jpg"
+            alt="Georgios-Christoforos Kazlaris"
+            class="avatar-photo"
+          />
+        </div>
+        <div class="about-body" data-reveal>
+          <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+          <h2 data-i18n="about.heading">A short introduction</h2>
+          <p data-i18n="about.p1">—</p>
+          <p data-i18n="about.p2">—</p>
+          <p data-i18n="about.p3">—</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="wrap">
+        <div class="card-grid">
+          <a
+            class="hl-card"
+            data-reveal
+            href="http://okfn.gr"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="num">01</span>
+            <h3 data-i18n="hl1.title">Open Knowledge Foundation Greece</h3>
+            <p data-i18n="hl1.body">
+              Where I currently work as a researcher and full-stack developer.
+            </p>
+            <span class="hl-link"
+              ><span data-i18n="hl1.link">Visit website</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
+            </span>
+          </a>
+          <a
+            class="hl-card"
+            data-reveal
+            href="https://www.iee.ihu.gr/en/phd_students/%CE%B3%CE%B5%CF%8E%CF%81%CE%B3%CE%B9%CE%BF%CF%82-%CF%87%CF%81%CE%B9%CF%83%CF%84%CF%8C%CF%86%CE%BF%CF%81%CE%BF%CF%82-%CE%BA%CE%B1%CE%B6%CE%BB%CE%AC%CF%81%CE%B7%CF%82/"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="num">02</span>
+            <h3 data-i18n="hl2.title">PhD Profile — IHU</h3>
+            <p data-i18n="hl2.body">
+              My thesis page at the Department of Information & Electronic
+              Engineering, with the full project description.
+            </p>
+            <span class="hl-link"
+              ><span data-i18n="hl2.link">View thesis page</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
+            </span>
+          </a>
+          <a
+            class="hl-card"
+            data-reveal
+            href="https://github.com/georgekazz"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="num">03</span>
+            <h3 data-i18n="hl3.title">GitHub</h3>
+            <p data-i18n="hl3.body">
+              Code and projects I'm building and experimenting with. [Replace
+              the link with your real GitHub profile.]
+            </p>
+            <span class="hl-link"
+              ><span data-i18n="hl3.link">View projects</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Timeline</p>
+          <h2 data-i18n="timeline.heading">A few milestones</h2>
+          <p data-i18n="timeline.sub">
+            Edit dates and details to match your own timeline.
+          </p>
+        </div>
+        <div class="timeline">
+          <div class="tl-item" data-reveal>
+            <span class="tl-date" data-i18n="tl5.date">2025</span>
+            <h3 data-i18n="tl5.title">
+              Peer-reviewed publication
+            </h3>
+            <p data-i18n="tl5.body">
+              Author "Kazlaris, G.C.; Keramopoulos, E.; Bratsas, C.; Kokkonis, G. Augmented Reality in Education Through Collaborative Learning: A Systematic Literature Review. Multimodal Technol. Interact. 2025, 9, 94. https://doi.org/10.3390/mti9090094"
+            </p>
+          </div>
+          <div class="tl-item" data-reveal>
+            <span class="tl-date" data-i18n="tl1.date">2024 — present</span>
+            <h3 data-i18n="tl1.title">
+              PhD Candidate, International Hellenic University
+            </h3>
+            <p data-i18n="tl1.body">
+              Researching problem solving and critical thinking through
+              interdependence in an educational Augmented Reality application.
+            </p>
+          </div>
+          <div class="tl-item" data-reveal>
+            <span class="tl-date" data-i18n="tl4.date">2023</span>
+            <h3 data-i18n="tl4.title">Researcher at OKFN GR / IHU</h3>
+            <p data-i18n="tl4.body">
+              Researcher and Software Engineer at Open Knowledge Foundation Greece.
+            </p>
+          </div>
+          <div class="tl-item" data-reveal>
+            <span class="tl-date" data-i18n="tl2.date">2022</span>
+            <h3 data-i18n="tl2.title">Peer-reviewed publication</h3>
+            <p data-i18n="tl2.body">
+              Co-authored "Augmented Reality Applications for Learning Geography
+              in Primary Education", Applied System Innovation, 5(6), 111.
+            </p>
+          </div>
+          <div class="tl-item" data-reveal>
+            <span class="tl-date" data-i18n="tl3.date">2022</span>
+            <h3 data-i18n="tl3.title">Undergraduate thesis</h3>
+            <p data-i18n="tl3.body">
+              Developed an Android educational application using Augmented
+              Reality to teach primary school Geography.
+            </p>
+          </div>
+          <div class="tl-item" data-reveal>
+            <span class="tl-date" data-i18n="tl6.date">2021-2022</span>
+            <h3 data-i18n="tl6.title">Student Intership</h3>
+            <p data-i18n="tl6.body">
+              Software Development Intern – Restaurant & Order Management Systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="wrap" style="text-align: center" data-reveal>
+        <h2 data-i18n="cta.heading">
+          Let's talk research, teaching, or collaboration.
+        </h2>
+
+        <a href="contact.html" class="btn btn-primary" data-i18n="cta.button"
+          >Get in touch</a
+        >
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <span class="footer-note" data-i18n="footer.note"
+          >Built with care · last updated 2026</span
+        >
+        <div class="footer-links">
+          <a
+            href="https://www.linkedin.com/in/george-christoforos-kazlaris/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
