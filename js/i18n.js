@@ -189,7 +189,7 @@ const content = {
   "cv.exp2.when": { el: "Σεπ 2022 - Ιουν 2023", en: "Sep 2022 - Jun 2023" },
   "cv.exp2.title": { el: "Στρατιωτική Θητεία", en: "Military Service" },
   "cv.exp2.body": {
-    el: "Ελληνικές Ένοπλες Δυνάμεις · Έβρος · Διοικητικός βοηθός στη γραμματεία της μονάδας.",
+    el: "Ελληνικές Ένοπλες Δυνάμεις · Τεθωρακισμένα (Έβρος) · Διοικητικός βοηθός στη γραμματεία της μονάδας.",
     en: "Hellenic Armed Forces · Évros · Administrative assistant supporting the unit's daily office operations.",
   },
   "cv.exp3.when": { el: "Οκτ 2021 - Απρ 2022", en: "Oct 2021 - Apr 2022" },
@@ -204,21 +204,45 @@ const content = {
 
   "cv.projects.heading": { el: "Έργα", en: "Projects" },
   "cv.proj1.title": {
-    el: "CyberKG - Πλατφόρμα Οπτικού Σημασιολογικού Ερωτήματος",
-    en: "CyberKG - Visual Semantic Query Platform",
-  },
-  "cv.proj1.body": {
-    el: "Μια ολοκληρωμένη ροή εργασιών που μετατρέπει αναφορές ανάλυσης κακόβουλου λογισμικού από το CAPE sandbox σε πακέτα πληροφοριών απειλών STIX 2.1 και γραφήματα RDF μορφής UCO/Turtle, τα οποία αποθηκεύονται σε Virtuoso triplestore και ερωτώνται μέσω οπτικής διεπαφής SPARQL.",
-    en: "An end-to-end pipeline that converts CAPE sandbox malware analysis reports into STIX 2.1 threat intelligence bundles and UCO/Turtle RDF graphs, stored in a Virtuoso triplestore and queried through a visual SPARQL interface.",
-  },
-  "cv.proj2.title": {
-    el: "Alignment - Εργαλείο Σημασιολογικής Αντιστοίχισης",
-    en: "Alignment - Semantic Matching Tool",
-  },
-  "cv.proj2.body": {
-    el: "Ένα εργαλείο αντιστοίχισης οντολογιών για τον Σημασιολογικό Ιστό, σε συνεργασία με το Open Knowledge Foundation Greece, που αντιμετωπίζει την ετερογένεια μεταξύ εργαλείων, λεξιλογίων και πηγών δεδομένων. Υλοποιημένο με Laravel και PHP.",
-    en: "An ontology-matching tool for the Semantic Web, built in collaboration with the Open Knowledge Foundation Greece, addressing the heterogeneity between tools, vocabularies and data sources. Built with Laravel and PHP.",
-  },
+      el: "CyberKG — Πλατφόρμα Οπτικού Σημασιολογικού Ερωτήματος",
+      en: "CyberKG — Visual Semantic Query Platform",
+    },
+    "cv.proj1.body": {
+      el: "Μια ολοκληρωμένη ροή εργασιών που μετατρέπει αναφορές ανάλυσης κακόβουλου λογισμικού από το CAPE sandbox σε πακέτα πληροφοριών απειλών STIX 2.1 και γραφήματα RDF μορφής UCO/Turtle, τα οποία αποθηκεύονται σε Virtuoso triplestore και ερωτώνται μέσω οπτικής διεπαφής SPARQL.",
+      en: "An end-to-end pipeline that converts CAPE sandbox malware analysis reports into STIX 2.1 threat intelligence bundles and UCO/Turtle RDF graphs, stored in a Virtuoso triplestore and queried through a visual SPARQL interface.",
+    },
+    "cv.proj2.title": {
+      el: "Alignment — Εργαλείο Σημασιολογικής Αντιστοίχισης",
+      en: "Alignment — Semantic Matching Tool",
+    },
+    "cv.proj2.body": {
+      el: "Ένα εργαλείο αντιστοίχισης οντολογιών για τον Σημασιολογικό Ιστό, σε συνεργασία με το Open Knowledge Foundation Greece, που αντιμετωπίζει την ετερογένεια μεταξύ εργαλείων, λεξιλογίων και πηγών δεδομένων. Υλοποιημένο με Laravel και PHP.",
+      en: "An ontology-matching tool for the Semantic Web, built in collaboration with the Open Knowledge Foundation Greece, addressing the heterogeneity between tools, vocabularies and data sources. Built with Laravel and PHP.",
+    },
+    "cv.proj3.title": {
+      el: "Πλατφόρμα AR Edutainment",
+      en: "AR Edutainment Platform",
+    },
+    "cv.proj3.body": {
+      el: "Μια πλατφόρμα που φιλοξενεί και αναδεικνύει έργα επαυξημένης πραγματικότητας από ερευνητικές και εκπαιδευτικές δραστηριότητες — έναν κοινό χώρο για εφαρμογές, πρωτότυπα και αποτελέσματα που δείχνουν πώς αξιοποιείται η AR για μάθηση, εμπειρία και αλληλεπίδραση.",
+      en: "A platform that hosts and showcases augmented reality projects developed through research and educational activities — a shared space for applications, prototypes and outcomes that highlight how AR is used for learning, experience and interaction.",
+    },
+    "cv.proj4.title": {
+      el: "Open Knowledge Foundation Greece",
+      en: "Open Knowledge Foundation Greece",
+    },
+    "cv.proj4.body": {
+      el: "Το ελληνικό τμήμα ενός παγκόσμιου μη κερδοσκοπικού δικτύου αφιερωμένου στην ανοιχτότητα — αξιοποιώντας την τεχνολογία και την εκπαίδευση ώστε ο κόσμος να έχει πρόσβαση, να δημιουργεί και να μοιράζεται τη γνώση με την κοινωνία.",
+      en: "The Greek chapter of a global non-profit network devoted to openness — using technology and education to help people access, create, and share knowledge with society.",
+    },
+    "cv.proj5.title": {
+      el: "OpenUp Thessaloniki Climate 2025",
+      en: "OpenUp Thessaloniki Climate 2025",
+    },
+    "cv.proj5.body": {
+      el: "Ένας διαγωνισμός καινοτομίας ανοιχτών δεδομένων που καλεί τους συμμετέχοντες να αναπτύξουν εφαρμογές για περιβαλλοντικές προκλήσεις όπως η κλιματική αλλαγή, αξιοποιώντας δεδομένα που παρέχονται δωρεάν από δημόσιους φορείς — ανοιχτός σε όλους στην Ελλάδα.",
+      en: "An open-data innovation competition inviting participants to build applications that tackle environmental challenges like climate change, using data provided free by public organisations — open to anyone in Greece.",
+    },
 
   "cv.publications.heading": { el: "Δημοσιεύσεις", en: "Publications" },
   "cv.pub1.title": {

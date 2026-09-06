@@ -716,6 +716,14 @@ section {
   font-size: 1.05rem;
   margin: 0 0 0.3em;
 }
+.cv-entry h3 a {
+  color: inherit;
+  border-bottom: 1px dotted var(--gold);
+  transition: color 0.2s var(--ease);
+}
+.cv-entry h3 a:hover {
+  color: var(--moss);
+}
 .cv-entry p {
   margin: 0;
   color: var(--ink-soft);
