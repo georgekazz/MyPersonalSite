@@ -8,7 +8,62 @@
       name="description"
       content="Personal academic site of Georgios-Christoforos Kazlaris, PhD Candidate in Augmented Reality &amp; Collaborative Learning."
     />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://users.iee.ihu.gr/~georkazl/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Georgios-Christoforos Kazlaris" />
+    <meta
+      property="og:title"
+      content="Georgios-Christoforos Kazlaris — PhD Candidate"
+    />
+    <meta
+      property="og:description"
+      content="Personal academic site of Georgios-Christoforos Kazlaris, PhD Candidate in Augmented Reality &amp; Collaborative Learning."
+    />
+    <meta property="og:url" content="https://users.iee.ihu.gr/~georkazl/" />
+    <meta
+      property="og:image"
+      content="https://users.iee.ihu.gr/~georkazl/assets/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Georgios-Christoforos Kazlaris — PhD Candidate"
+    />
+    <meta
+      name="twitter:description"
+      content="Personal academic site of Georgios-Christoforos Kazlaris, PhD Candidate in Augmented Reality &amp; Collaborative Learning."
+    />
+    <meta
+      name="twitter:image"
+      content="https://users.iee.ihu.gr/~georkazl/assets/og-image.jpg"
+    />
+
+    <!-- Icons -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#0f0f0f" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,6 +71,26 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Georgios-Christoforos Kazlaris",
+        "jobTitle": "PhD Candidate",
+        "url": "https://users.iee.ihu.gr/~georkazl/",
+        "image": "https://users.iee.ihu.gr/~georkazl/assets/me.jpg",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "International Hellenic University"
+        },
+        "sameAs": [
+          "https://github.com/georgekazz",
+          "https://www.linkedin.com/in/george-christoforos-kazlaris/"
+        ]
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -63,10 +138,7 @@
             critically together.
           </p> -->
           <div class="btn-row">
-            <a
-              href="contact.html"
-              class="btn btn-primary"
-              data-i18n="hero.cta1"
+            <a href="contact.html" class="btn btn-primary" data-i18n="hero.cta1"
               >Contact</a
             >
             <a href="cv.html" class="btn btn-ghost" data-i18n="hero.cta2"
@@ -243,11 +315,12 @@
         <div class="timeline">
           <div class="tl-item" data-reveal>
             <span class="tl-date" data-i18n="tl5.date">2025</span>
-            <h3 data-i18n="tl5.title">
-              Peer-reviewed publication
-            </h3>
+            <h3 data-i18n="tl5.title">Peer-reviewed publication</h3>
             <p data-i18n="tl5.body">
-              Author "Kazlaris, G.C.; Keramopoulos, E.; Bratsas, C.; Kokkonis, G. Augmented Reality in Education Through Collaborative Learning: A Systematic Literature Review. Multimodal Technol. Interact. 2025, 9, 94. https://doi.org/10.3390/mti9090094"
+              Author "Kazlaris, G.C.; Keramopoulos, E.; Bratsas, C.; Kokkonis,
+              G. Augmented Reality in Education Through Collaborative Learning:
+              A Systematic Literature Review. Multimodal Technol. Interact.
+              2025, 9, 94. https://doi.org/10.3390/mti9090094"
             </p>
           </div>
           <div class="tl-item" data-reveal>
@@ -264,7 +337,8 @@
             <span class="tl-date" data-i18n="tl4.date">2023</span>
             <h3 data-i18n="tl4.title">Researcher at OKFN GR / IHU</h3>
             <p data-i18n="tl4.body">
-              Researcher and Software Engineer at Open Knowledge Foundation Greece.
+              Researcher and Software Engineer at Open Knowledge Foundation
+              Greece.
             </p>
           </div>
           <div class="tl-item" data-reveal>
@@ -287,7 +361,8 @@
             <span class="tl-date" data-i18n="tl6.date">2021-2022</span>
             <h3 data-i18n="tl6.title">Student Intership</h3>
             <p data-i18n="tl6.body">
-              Software Development Intern – Restaurant & Order Management Systems.
+              Software Development Intern – Restaurant & Order Management
+              Systems.
             </p>
           </div>
         </div>
