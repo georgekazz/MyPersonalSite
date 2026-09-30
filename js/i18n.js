@@ -99,7 +99,7 @@ const content = {
     en: 'Co-authored "Augmented Reality Applications for Learning Geography in Primary Education", Applied System Innovation, 5(6), 111.',
   },
   "tl3.date": { el: "2022", en: "2022" },
-  "tl3.title": { el: "Πτυχιακή εργασία", en: "Undergraduate thesis" },
+  "tl3.title": { el: "Διπλωματική", en: "Master's thesis" },
   "tl3.body": {
     el: "Ανάπτυξη εκπαιδευτικής εφαρμογής Android με Επαυξημένη Πραγματικότητα για Γεωγραφία δημοτικού.",
     en: "Developed an Android educational application using Augmented Reality to teach primary school Geography.",
