@@ -134,6 +134,16 @@ const content = {
     en: "Software Development Intern – Restaurant & Order Management Systems",
   },
 
+  "tl7.date": { el: "2026", en: "2026" },
+  "tl7.title": {
+    el: "Παρουσίαση Άρθρου Συνεδρίου & Βεβαίωση Παρακολούθησης",
+    en: "Conference Paper Presentation & Certificate of Attendance",
+  },
+  "tl7.body": {
+    el: "Παρουσίαση άρθρου και βεβαίωση παρακολούθησης στο 2nd IEEE 2026 International Conference on Cybersecurity and AI-based Systems (CYBER-AI 2026).",
+    en: "Presented a paper and received a certificate of attendance at the 2nd IEEE 2026 International Conference on Cybersecurity and AI-based Systems (CYBER-AI 2026).",
+  },
+
   "cta.heading": {
     el: "Επικοινωνήστε Μαζί μου!",
     en: "Contact Me!",
@@ -268,6 +278,30 @@ const content = {
   "cv.pub2.authors": {
     el: "C. Volioti, E. Keramopoulos, T. Sapounidis, K. Melisidis, G.-C. Kazlaris, G. Rizikianos, C. Kitras",
     en: "C. Volioti, E. Keramopoulos, T. Sapounidis, K. Melisidis, G.-C. Kazlaris, G. Rizikianos, C. Kitras",
+  },
+
+  "cv.conferences.heading": {
+    el: "Συνέδρια & Παρουσιάσεις",
+    en: "Conferences & Presentations",
+  },
+  "cv.conf1.when": { el: "Μάρτιος 2025", en: "March 2025" },
+  "cv.conf1.title": {
+    el: "Παρουσίαση Hackathon - OpenUp Thessaloniki Climate 2025",
+    en: "Hackathon Presentation - OpenUp Thessaloniki Climate 2025",
+  },
+  "cv.conf1.body": {
+    el: "Παρουσίαση του hackathon ανοιχτών δεδομένων «OpenUp Thessaloniki Climate 2025» στο πλαίσιο του Open Data Day 2025, στο Διεθνές Πανεπιστήμιο Ελλάδος.",
+    en: "Presented the open-data hackathon \"OpenUp Thessaloniki Climate 2025\" as part of Open Data Day 2025, at the International Hellenic University.",
+  },
+
+  "cv.conf0.when": { el: "Σεπτέμβριος 2026", en: "September 2026" },
+  "cv.conf0.title": {
+    el: "Παρουσίαση Άρθρου & Βεβαίωση Παρακολούθησης",
+    en: "Conference Paper Presentation & Certificate of Attendance",
+  },
+  "cv.conf0.body": {
+    el: "2nd IEEE 2026 International Conference on Cybersecurity and AI-based Systems (CYBER-AI 2026) · Παρουσίαση άρθρου συνεδρίου και βεβαίωση παρακολούθησης.",
+    en: "2nd IEEE 2026 International Conference on Cybersecurity and AI-based Systems (CYBER-AI 2026) · Presented a conference paper and received a certificate of attendance.",
   },
 
   "cv.certifications.heading": { el: "Πιστοποιήσεις", en: "Certifications" },

@@ -527,6 +527,8 @@ section {
 .about-body p {
   margin: 0 0 1.1em;
   color: var(--ink-soft);
+  text-align: justify;
+  text-justify: inter-word;
 }
 .about-body strong {
   color: var(--ink);
@@ -597,13 +599,42 @@ section {
   margin-left: 8px;
   padding-left: 34px;
   border-left: 2px solid var(--line);
+  max-height: 560px;
+  overflow-y: auto;
+  padding-right: 18px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold) transparent;
+  /* fade hint at the bottom to show there's more to scroll */
+  mask-image: linear-gradient(
+    to bottom,
+    #000 calc(100% - 28px),
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    #000 calc(100% - 28px),
+    transparent 100%
+  );
+}
+.timeline::-webkit-scrollbar {
+  width: 6px;
+}
+.timeline::-webkit-scrollbar-track {
+  background: transparent;
+}
+.timeline::-webkit-scrollbar-thumb {
+  background: var(--gold-soft);
+  border-radius: 10px;
+}
+.timeline::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
 }
 .tl-item {
   position: relative;
   padding-bottom: 40px;
 }
 .tl-item:last-child {
-  padding-bottom: 0;
+  padding-bottom: 4px;
 }
 .tl-item::before {
   content: "";
@@ -990,5 +1021,8 @@ form.contact-form {
   }
   .wrap {
     padding: 0 20px;
+  }
+  .timeline {
+    max-height: 460px;
   }
 }
