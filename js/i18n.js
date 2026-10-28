@@ -144,6 +144,17 @@ const content = {
     en: "Presented a paper and received a certificate of attendance at the 2nd IEEE 2026 International Conference on Cybersecurity and AI-based Systems (CYBER-AI 2026).",
   },
 
+  "map.heading": { el: "Πού έχω βρεθεί", en: "Where I've been" },
+  "map.sub": {
+    el: "Χώρες που έχω επισκεφθεί.",
+    en: "Countries i have visited.",
+  },
+  "map.legend.home": { el: "Βάση", en: "Home" },
+  "map.legend.visited": {
+    el: "Επισκέφτηκα ",
+    en: "Visited",
+  },
+
   "cta.heading": {
     el: "Επικοινωνήστε Μαζί μου!",
     en: "Contact Me!",

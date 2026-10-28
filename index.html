@@ -49,7 +49,6 @@
 
     <!-- Icons -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" sizes="any" />
     <link
       rel="icon"
       type="image/png"
@@ -71,6 +70,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jsvectormap/1.5.0/css/jsvectormap.min.css"
+    />
 
     <!-- Structured data -->
     <script type="application/ld+json">
@@ -380,6 +383,34 @@
       </div>
     </section>
 
+    <section>
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Travel</p>
+          <h2 data-i18n="map.heading">Where I've been</h2>
+          <p data-i18n="map.sub">
+            Countries visited for conferences, research projects, and
+            collaborations.
+          </p>
+        </div>
+        <div class="map-card" data-reveal>
+          <div id="worldMap" class="world-map"></div>
+          <ul class="map-legend">
+            <li>
+              <span class="legend-dot home"></span>
+              <span data-i18n="map.legend.home">Home</span>
+            </li>
+            <li>
+              <span class="legend-dot visited"></span>
+              <span data-i18n="map.legend.visited"
+                >Visited for conferences / projects</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <section class="section-alt">
       <div class="wrap" style="text-align: center" data-reveal>
         <h2 data-i18n="cta.heading">
@@ -409,7 +440,10 @@
       </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsvectormap/1.5.0/js/jsvectormap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsvectormap/1.5.0/maps/world.min.js"></script>
     <script src="js/i18n.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
   </body>
 </html>
