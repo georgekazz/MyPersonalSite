@@ -121,7 +121,7 @@
 
   function setTooltipHtml(tooltip, html) {
     if (!tooltip) return;
-    
+   
     var el = tooltip._tooltip || tooltip.el || tooltip.element;
     if (el) {
       el.innerHTML = html;
@@ -145,7 +145,7 @@
     var mapEl = document.getElementById("worldMap");
     if (!mapEl || typeof jsVectorMap === "undefined") return;
 
-    new jsVectorMap({
+    var worldMap = new jsVectorMap({
       selector: "#worldMap",
       map: "world",
       zoomButtons: true,
@@ -188,9 +188,24 @@
       },
     });
 
-    // Fallback in case onLoaded isn't called by this library version.
     requestAnimationFrame(function () {
       highlightCountries(mapEl);
     });
+
+    function refreshMapSize() {
+      if (worldMap && typeof worldMap.updateSize === "function") {
+        worldMap.updateSize();
+      }
+    }
+
+    var resizeTimer;
+    window.addEventListener("resize", function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(refreshMapSize, 150);
+    });
+    window.addEventListener("orientationchange", function () {
+      setTimeout(refreshMapSize, 200);
+    });
+    window.addEventListener("load", refreshMapSize);
   });
 })();
