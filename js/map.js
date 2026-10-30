@@ -45,8 +45,25 @@
         en: "Visited.",
       },
     },
+    BR: {
+      kind: "visited",
+      title: { el: "Βραζιλία", en: "Brazil" },
+      text: {
+        el: "Ρίο ντε Τζανέιρο — Παρουσίαση άρθρου συνεδρίου.",
+        en: "Rio de Janeiro — Conference paper presentation.",
+      },
+    },
+    CY: {
+      kind: "visited",
+      title: { el: "Κύπρος", en: "Cyprus" },
+      text: {
+        el: "Συνεργασία σε ευρωπαϊκό έργο (EU project).",
+        en: "Visited for an EU project collaboration.",
+      },
+    },
   };
 
+  // City-level pins shown on top of the highlighted countries.
   var markersData = [
     {
       coords: [55.6761, 12.5683],
@@ -72,6 +89,30 @@
         en: "Visited.",
       },
     },
+    {
+      coords: [-22.9068, -43.1729],
+      name: { el: "Ρίο ντε Τζανέιρο", en: "Rio de Janeiro" },
+      text: {
+        el: "Παρουσίαση άρθρου συνεδρίου.",
+        en: "Conference paper presentation.",
+      },
+    },
+    {
+      coords: [35.1856, 33.3823],
+      name: { el: "Λευκωσία", en: "Nicosia" },
+      text: {
+        el: "Συνεργασία σε ευρωπαϊκό έργο (EU project).",
+        en: "Visited for an EU project collaboration.",
+      },
+    },
+    {
+      coords: [52.52, 13.405],
+      name: { el: "Βερολίνο", en: "Berlin" },
+      text: {
+        el: "Επίσκεψη.",
+        en: "Visited.",
+      },
+    },
   ];
 
   function lang() {
@@ -80,7 +121,7 @@
 
   function setTooltipHtml(tooltip, html) {
     if (!tooltip) return;
-   
+    
     var el = tooltip._tooltip || tooltip.el || tooltip.element;
     if (el) {
       el.innerHTML = html;
