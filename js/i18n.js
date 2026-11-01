@@ -305,6 +305,16 @@ const content = {
     en: "Presented the open-data hackathon \"OpenUp Thessaloniki Climate 2025\" as part of Open Data Day 2025, at the International Hellenic University.",
   },
 
+  "cv.conf2.when": { el: "Νοέμβριος 2025", en: "November 2025" },
+  "cv.conf2.title": {
+    el: "Συμμετοχή σε Διαδικτυακά Σεμινάρια Βιβλιοθηκών ΔΙ.ΠΑ.Ε.",
+    en: "Participation in Online Seminars by the IHU Libraries",
+  },
+  "cv.conf2.body": {
+    el: "Συμμετοχή στα Διαδικτυακά Σεμινάρια των Βιβλιοθηκών του Διεθνούς Πανεπιστημίου Ελλάδος (ΔΙ.ΠΑ.Ε.) για υποψήφιους διδάκτορες.",
+    en: "Participated in the Online Seminars organized by the IHU Libraries for PhD candidates.",
+  },
+
   "cv.conf0.when": { el: "Σεπτέμβριος 2026", en: "September 2026" },
   "cv.conf0.title": {
     el: "Παρουσίαση Άρθρου & Βεβαίωση Παρακολούθησης",
