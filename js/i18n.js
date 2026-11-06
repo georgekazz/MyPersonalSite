@@ -290,6 +290,18 @@ const content = {
     el: "C. Volioti, E. Keramopoulos, T. Sapounidis, K. Melisidis, G.-C. Kazlaris, G. Rizikianos, C. Kitras",
     en: "C. Volioti, E. Keramopoulos, T. Sapounidis, K. Melisidis, G.-C. Kazlaris, G. Rizikianos, C. Kitras",
   },
+  "cv.pub3.title": {
+    el: "Red Flags: A Real-Time Log Anomaly Detection System",
+    en: "Red Flags: A Real-Time Log Anomaly Detection System",
+  },
+  "cv.pub3.venue": {
+    el: "2026 International Conference on Cybersecurity and AI-Based Systems (Cyber-AI), Βουκουρέστι, Ρουμανία, σσ. 279-284 — doi.org/10.1109/Cyber-AI70573.2026.11755212",
+    en: "2026 International Conference on Cybersecurity and AI-Based Systems (Cyber-AI), Bucharest, Romania, pp. 279-284 — doi.org/10.1109/Cyber-AI70573.2026.11755212",
+  },
+  "cv.pub3.authors": {
+    el: "E. K. Anastasiadis, A. K. Angelidis, G. C. Kazlaris, C. Bratsas",
+    en: "E. K. Anastasiadis, A. K. Angelidis, G. C. Kazlaris, C. Bratsas",
+  },
 
   "cv.conferences.heading": {
     el: "Συνέδρια & Παρουσιάσεις",

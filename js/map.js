@@ -45,14 +45,14 @@
         en: "Visited.",
       },
     },
-    BR: {
-      kind: "visited",
-      title: { el: "Βραζιλία", en: "Brazil" },
-      text: {
-        el: "Ρίο ντε Τζανέιρο — Παρουσίαση άρθρου συνεδρίου.",
-        en: "Rio de Janeiro — Conference paper presentation.",
-      },
-    },
+    // BR: {
+    //   kind: "visited",
+    //   title: { el: "Βραζιλία", en: "Brazil" },
+    //   text: {
+    //     el: "Ρίο ντε Τζανέιρο — Παρουσίαση άρθρου συνεδρίου.",
+    //     en: "Rio de Janeiro — Conference paper presentation.",
+    //   },
+    // },
     CY: {
       kind: "visited",
       title: { el: "Κύπρος", en: "Cyprus" },
@@ -89,17 +89,17 @@
         en: "Visited.",
       },
     },
-    {
-      coords: [-22.9068, -43.1729],
-      name: { el: "Ρίο ντε Τζανέιρο", en: "Rio de Janeiro" },
-      text: {
-        el: "Παρουσίαση άρθρου συνεδρίου.",
-        en: "Conference paper presentation.",
-      },
-    },
+    // {
+    //   coords: [-22.9068, -43.1729],
+    //   name: { el: "Ρίο ντε Τζανέιρο", en: "Rio de Janeiro" },
+    //   text: {
+    //     el: "Παρουσίαση άρθρου συνεδρίου.",
+    //     en: "Conference paper presentation.",
+    //   },
+    // },
     {
       coords: [35.1856, 33.3823],
-      name: { el: "Λευκωσία", en: "Nicosia" },
+      name: { el: "Λεμεσός", en: "Limassol" },
       text: {
         el: "Συνεργασία σε ευρωπαϊκό έργο (EU project).",
         en: "Visited for an EU project collaboration.",
